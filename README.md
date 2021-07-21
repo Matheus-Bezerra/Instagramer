@@ -10,8 +10,8 @@
 <div align="center">
     <img src="img/projeto-instagramer-responsividade.gif" alt="instagram-responsivo-gif" height="425">
     <img src="img/projeto-instagramer-smartphone.gif" alt="instagram-mobile-gif" height="425">
-    <img src="projeto-instagramer-tabletv1.gif" alt="instagram-tabletv1-gif" height="425">
-    <img src="img/projeto-instagramer-desktop.gif" alt="instagram-desktopv1-gif" height="425">
+    <img src="projeto-instagramer-tabletv1.gif" alt="instagram-Tabletv1-gif" height="425">
+    <img src="img/projeto-instagramer-desktop.gif" alt="instagram-Desktopv1-gif" height="425">
 </div>
 
 ---
