@@ -1,10 +1,12 @@
+feather.replace()
 const modoNoturno = document.querySelector('.conteudoModoNoturno')
 const body = document.querySelector('body')
 const conteudo = document.querySelector('.conteudos')
 const cabecalho = document.querySelector('.cabecalho')
 const container = document.querySelector('.container')
 const links = document.querySelectorAll('a')
-console.log(conteudo)
+const icone = document.querySelectorAll('.publicacao svg.heart')
+
 
 console.log(modoNoturno)
 modoNoturno.addEventListener('click', handleClick)
@@ -18,3 +20,10 @@ function handleClick(event) {
         link.classList.toggle('ativo')
     })
 }
+console.log(icone)
+icone.forEach(icone => {
+    icone.addEventListener('click', iconClick)
+    function iconClick() {
+        icone.classList.toggle('ativo')
+    }
+})

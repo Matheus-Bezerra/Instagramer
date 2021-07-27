@@ -33,6 +33,7 @@ a {
     color: var(--text-color);
     padding: .6rem;
 }
+
 .container {
     color: var(--text-color);
     font-family: var(--font-family-text);
@@ -207,6 +208,10 @@ a {
     background-image: url(../img/moon.svg);
     transition: all 1s;
 }
+.conteudoModoNoturno:hover {
+    cursor: pointer;
+    transform: rotate(50deg) scale(1.1);
+}
 
 .conteudo {
     width: 100%;
@@ -246,15 +251,16 @@ a {
 }
 .conteudo__imgs {
     display: flex;
+    align-items: center;
     flex: 1;
     margin-right: 2rem;
 }
-.conteudo__img:first-child {
+.conteudo svg:first-child {
     margin-right: 27px;
     margin-left: 43px;
     transition: all 1s;
 }
-.conteudo__img:nth-child(2) {
+.conteudo svg:nth-child(2) {
     margin-right: 27px;
     transition: all 1s;
 }
@@ -394,6 +400,13 @@ a {
 
 .publicacao {
     margin-top: 20px;
+}
+.publicacao svg {
+    width: 20px;
+    height: 20px;
+}
+.publicacao svg.ativo {
+    color: red;
 }
 .publicacao__titulo {
     margin-bottom: 24px;
