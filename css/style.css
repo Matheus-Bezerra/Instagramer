@@ -7,7 +7,7 @@ img {
     max-width: 100%;
 }
 :root {
-    --text-color: #fff;
+    --text-color: #ddd;
     --header-color: #242424;
     --font-family-text: 'Roboto', sans-serif;
     --font-size-text: 1.125rem;
@@ -20,6 +20,14 @@ body {
     font-size: var(--font-size-text);
     margin: auto;
 }
+.conteudos.ativo, .cabecalho.ativo, .container.ativo {
+    background-color: var(--text-color);
+    color: black;
+}
+a.ativo {
+    color: black;
+}
+
 a { 
     text-decoration: none;
     color: var(--text-color);
@@ -188,14 +196,16 @@ a {
 .conteudoModoNoturno {
     width: 50px;
     height: 50px;
+    margin-left: 25px;
     border-radius: 50%;
     background-image: url(../img/sun.svg);
     background-position: center;
     background-size: cover;
-    
+    transition: all 1s;
 }
 .conteudoModoNoturno.ativo {
     background-image: url(../img/moon.svg);
+    transition: all 1s;
 }
 
 .conteudo {
@@ -214,7 +224,7 @@ a {
     position: absolute;
     background: url(../img/search.svg) no-repeat center/cover;
     top: 1.5rem;
-    left: 155px;
+    left: 175px;
     width: 24px;
     height: 24px;
 }
