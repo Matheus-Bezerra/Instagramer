@@ -192,10 +192,12 @@ a {
     background-image: url(../img/sun.svg);
     background-position: center;
     background-size: cover;
-    position: absolute;
-    left: 15px;
-    top: 13px;
+    
 }
+.conteudoModoNoturno.ativo {
+    background-image: url(../img/moon.svg);
+}
+
 .conteudo {
     width: 100%;
     padding-top: .8rem;
@@ -212,7 +214,7 @@ a {
     position: absolute;
     background: url(../img/search.svg) no-repeat center/cover;
     top: 1.5rem;
-    left: 105px;
+    left: 155px;
     width: 24px;
     height: 24px;
 }
@@ -605,9 +607,10 @@ a {
                 position: absolute;
                 background: url(../img/search.svg) no-repeat center/cover;
                 top: 1.5rem;
-                left: 45px;
+                left: 95px;
                 width: 24px;
                 height: 24px;
+                display: none;
             }
             .conteudo__input {
                 margin-left: 2rem;
