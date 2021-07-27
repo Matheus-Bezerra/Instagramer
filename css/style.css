@@ -404,6 +404,7 @@ a {
 .publicacao svg {
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 .publicacao svg.ativo {
     color: red;

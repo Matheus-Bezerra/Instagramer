@@ -7,8 +7,12 @@ const container = document.querySelector('.container')
 const links = document.querySelectorAll('a')
 const icone = document.querySelectorAll('.publicacao svg.heart')
 
-
-console.log(modoNoturno)
+links.forEach(link => {
+    link.addEventListener('click', defaultLink)
+    function defaultLink(event) {
+        event.preventDefault()
+    }
+})
 modoNoturno.addEventListener('click', handleClick)
 function handleClick(event) {
     modoNoturno.classList.toggle('ativo')
@@ -27,3 +31,4 @@ icone.forEach(icone => {
         icone.classList.toggle('ativo')
     }
 })
+
