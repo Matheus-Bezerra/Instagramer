@@ -34,7 +34,7 @@ a {
     position: relative;
 }
 .cabecalho {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100%;
@@ -42,6 +42,24 @@ a {
     background-color: var(--header-color);
     padding: 1rem;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.cabecalho::-webkit-scrollbar {
+    width: 4px;
+}
+.cabecalho::-webkit-scrollbar-button {
+    display: none;
+}
+.cabecalho::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    border-top: 2px ridge #bc1888;
+    border-bottom: 2px solid #f09433;
+    border-radius: 25px;
+}
+.cabecalho::-webkit-scrollbar-track {
+    background: linear-gradient(to right, #000, #333, #999);
+    border-radius: 25px;
 }
 .cabecalho__logo {
     display: flex;
@@ -165,6 +183,18 @@ a {
 .conteudos {
     margin-left: 21.125rem;
     background-color: #292929;
+    position: relative;
+}
+.conteudoModoNoturno {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(../img/sun.svg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 15px;
+    top: 13px;
 }
 .conteudo {
     width: 100%;
