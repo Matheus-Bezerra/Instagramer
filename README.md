@@ -35,3 +35,4 @@ O projeto foi desenvolvido com as seguintes Tecnologias:
 ---
 
 Feito por Matheus Bezerra, entre em contato pelo Linkedin --> <a href="https://www.linkedin.com/in/matheus-bezerra04/">Matheus-Bezerra04</a>
+<p>Ou entre em contato pelo Numero (11) 97661-1929</p>
