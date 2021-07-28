@@ -20,8 +20,12 @@ body {
     font-size: var(--font-size-text);
     margin: auto;
 }
-.conteudos.ativo, .cabecalho.ativo, .container.ativo {
+.conteudos.ativo, .container.ativo {
     background-color: var(--text-color);
+    color: black;
+}
+.cabecalho.ativo {
+    background-color: #ccc;
     color: black;
 }
 a.ativo {
