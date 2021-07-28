@@ -678,6 +678,9 @@ a {
             }
         }
         @media (max-width: 596px) {
+            a.ativo {
+                color: white;
+            }
             .cabecalho {
                 position: absolute;
                 display: flex;
@@ -742,6 +745,7 @@ a {
             .conteudo__input {
                 flex: 1;
             }
+            
         }
         @media (max-width: 350px) {
             .grid__imagem {
