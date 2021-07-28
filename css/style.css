@@ -538,6 +538,9 @@ a {
         .cabecalho__icone:nth-child(8)::after {
             width: 14.750rem;
         }
+        .conteudo__input, .conteudoModoNoturno {
+            margin-bottom: 1rem;
+        }
     }
 @media (max-width:1014px) {
     .cabecalho {
@@ -642,6 +645,9 @@ a {
             }
             .conteudo__input {
                 margin-left: 2rem;
+            }
+            .conteudoModoNoturno {
+                margin: 0rem auto .5rem auto;
             }
             .grid__imagem {
                 width: 350px;
