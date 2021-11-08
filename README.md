@@ -31,6 +31,7 @@ O projeto foi desenvolvido com as seguintes Tecnologias:
 
 - HTML 5
 - CSS Avançado
+- Javascript
 
 ---
 
